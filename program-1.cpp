@@ -16,7 +16,7 @@ int main()
     cin >> n1->data;
     n1->data = 25;
     n1->link = NULL;
-    
+
     Node *n2 = nullptr;
     n2 = new Node();
     cout << "Enter Another Number :- ";
@@ -30,7 +30,7 @@ int main()
     cin >> n3->data;
     n3->link = NULL;
     n2->link = n3;
-    
+
     cout << endl << "---- Node - 1 ----" << endl;
     cout << "Address = " << n1 << endl;
     cout << "Data = " << n1->data << endl;
